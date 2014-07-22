@@ -1,4 +1,4 @@
-package s0lver.katas;
+package s0lver.katas.CmdLineArgs.version1;
 
 import java.util.HashMap;
 import java.util.Set;
@@ -32,7 +32,7 @@ public class CmdLineArgs {
     }
 
     public HashMap<String, String> ParseParameters(String[] cmdArguments) {
-        HashMap<String, String> parsed = new HashMap<String, String>();
+        HashMap<String, String> parsed = new HashMap<>();
         String currentParameter = null;
         for (String currentItem : cmdArguments) {
             // it is a parameter name
